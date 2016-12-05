@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'IngretionWithEixstingApps' do
+ # pod 'AFNetworking', '~> 3.1.0'
+ pod 'React', :path => './react-native/node_modules/react-native', :subspecs => [
+ # path 为该项目中的路径，记得调整
+ 'Core',
+ 'RCTText',
+ 'RCTNetwork',
+ 'RCTWebSocket',
+ # 添加其他的react-native用到的node modules
+]
+end

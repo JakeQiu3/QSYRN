@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - React/Core (0.35.0)
+  - React/RCTNetwork (0.35.0):
+    - React/Core
+  - React/RCTText (0.35.0):
+    - React/Core
+  - React/RCTWebSocket (0.35.0):
+    - React/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - React/Core (from `./react-native/node_modules/react-native`)
+  - React/RCTNetwork (from `./react-native/node_modules/react-native`)
+  - React/RCTText (from `./react-native/node_modules/react-native`)
+  - React/RCTWebSocket (from `./react-native/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "./react-native/node_modules/react-native"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  React: d80af5410aa500d0cb1bce2cc4493a584cf2ec92
+
+PODFILE CHECKSUM: f48711ac8c79184e03f0ae578e16de6ce6ebc188
+
+COCOAPODS: 1.0.1
